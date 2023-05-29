@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.js-p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.outcome {
+    margin-top: 10px;
+}
+
+.js-img {
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(25, 25, 25);
+    transition: 0.2s;
+
+}
+
+.js-btn {
+    background-color: transparent;
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.rst-scr,
+.js-auto,
+.js-auto-stop {
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: medium;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+
+.rst-scr:active,
+.js-auto:active,
+.js-auto-stop:active {
+    opacity: 0.7;
+}
+
+.score-div {
+    margin-top: 60px;
+}
+
+
+.js-btn:hover {
+    opacity: 0.9;
+}
+
+
+.js-btn:active {
+    opacity: 0.6;
+}
+
+.js-img:active {
+    opacity: 0.7;
+}
